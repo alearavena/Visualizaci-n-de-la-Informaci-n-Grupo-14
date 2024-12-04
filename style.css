@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.conte-degradado { 
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    pointer-events: none; /* Initially disable pointer events */
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+#chart {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(14, 1, 1, 0.1);
+    padding: 20px;
+    z-index: 5;
+    position: relative;
+}
